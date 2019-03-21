@@ -1,0 +1,612 @@
+html, body {
+	font-family: 'Roboto', sans-serif;  
+	line-height:1.5;
+	color:#333333;
+	background:#f5f5f5
+}
+
+img {
+max-width:100%}
+
+h2{
+	text-transform:uppercase;
+	font-family:'Roboto', sans-serif;
+	font-size:36px;
+	color:#333333}
+	
+h2:after {
+	content:'';
+	display:block;
+	width:100px;
+	height:2px;
+	background:#67407f;
+	margin:20px 0 50px 0}
+
+/* BUTTONS and LINKS */
+
+.custombtn, .custombtn:hover{
+	display:inline-block;
+	padding: 12px 24px;
+	border:2px solid #67407f;
+	text-transform:uppercase;
+	color:#333333;
+	text-decoration:none;
+	width:320px;
+	text-align:center;
+	max-width:100%;
+	margin: 30px auto;
+	display:block
+}
+
+.coloredbg.custombtn{
+	background:#67407f;
+	color:#fff
+}	
+
+a.read-more{
+	color:#67407f;
+	text-transform:uppercase;
+	font-weight:bold}
+	
+/* NAVIGATION */
+nav.navbar {
+	text-align:center;
+	background:#fff;
+	border:none;
+	margin-bottom:0}
+
+nav.topnavbar {
+	width:100%;
+	text-align:center;
+	background:#fff;
+	border-bottom: 2px solid #67407f;
+	border-radius:0;
+}
+
+.navbar-nav {
+	float:none}
+
+
+.navbar-nav > li {
+	display:inline-block;
+	text-transform:uppercase;
+	float:none;
+	padding: 0 30px}
+	
+.brandnav {
+	padding-bottom:20px}
+	
+	
+/*SECTIONS*/
+
+section{
+	padding:50px 0;
+	}
+	
+section .row:last-of-type {
+	padding-bottom:50px}
+	
+section.withborder .row:last-of-type {
+	border-bottom:2px solid #b3b3b3;
+	padding-bottom:50px
+}
+	
+.row{
+	margin:0}
+	
+ul {
+list-style:circle}	
+
+main {
+	margin-bottom:50px;
+}
+	
+/* .FIRST */
+
+.first{
+	background-image: url('img/bg-main-banner-30.jpg');
+	background-size:cover;
+}
+
+.first .container {
+display:flex}
+
+.first .row {
+	display:table;
+	}
+
+.first .col-sm-4 {
+	background:#fff;
+	border-top: 5px solid #67407f;
+	margin-right:2%;
+	width:32%;
+	padding-top:30px;
+	padding-bottom:30px
+}
+	
+.first .col-sm-4:last-of-type {
+	margin-right:0}
+
+.first ul{
+	list-style:none;
+	padding-left:0}
+
+.first ul li{
+	width:100%;
+	border-bottom:1px solid #999999;
+	padding:10px 0}
+	
+.first h2{
+	text-align:center;
+	padding-bottom: 30px}
+	
+.first h2:after {
+	display:none;
+	}
+	
+/* SECOND */
+
+.contacts {
+text-align:center}
+
+/* .THIRD */
+
+.third .row{
+margin-bottom:20px;
+border-bottom:1px solid #ddd;
+padding-bottom:5px;
+display:flex}
+
+.third .col-sm-4 {
+	padding: 20px;
+	background: #ebebeb}
+	
+	.third .col-sm-8 {
+	padding: 20px;}
+	
+	.third ul {
+	list-style:none}
+	
+.third ul li{
+display:inline}
+
+.third ul li:after{
+	display:inline-block;
+	content:"/";
+	padding: 0 20px;
+}
+
+.third ul li:last-of-type:after{
+display:none}
+
+.third a {
+color:#333}
+
+.third a:hover{
+color:#67407f;
+text-decoration:none }
+	
+/* .FOURTH */
+
+.fourth .row{
+display:flex;
+border-bottom:1px solid #ddd;
+padding-bottom:5px;
+margin-bottom:20px}
+
+.fourth .custombtn, .fourth .custombtn:hover{
+margin:30px 0}
+	
+.fourth .col-sm-4 {
+	padding: 20px;
+	background: #ebebeb}
+	
+.fourth .col-sm-8 {
+		padding: 20px;
+
+}
+	
+/* .LAST-POSTS */
+
+.last-posts {
+	background:#f5f5f5;
+	}
+	
+.last-posts .row {
+	display:flex;
+	}
+
+.last-posts .col-sm-4 {
+	background:#fff;
+	border-top: 5px solid #67407f;
+	margin-right:2%;
+	width:32%;
+	padding-top:20px;
+	padding-bottom:40px
+}
+	
+.last-posts .col-sm-4:last-of-type {
+	margin-right:0}
+
+	
+/* .GET-STARTED */
+
+
+.get-started {
+	background: #f1ebf5;
+	text-align:center;}
+
+.copyright {
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	width:100%;
+	background:#ebebeb;
+	padding:10px 0;
+	margin-top:0px}
+	
+/* .BOTTOM */
+
+.bottom {
+background:#fff}
+
+.bottom  ul{
+	padding-left:0;
+	list-style:none}
+	
+.bottom ul li{
+	width:100%;
+	text-transform:uppercase;
+	padding-bottom:5px}
+	
+.bottom a, .bottom a:hover{
+	color:#333}
+	
+
+/*Training Program */
+
+body.training-program {
+background: #f5f5f5;}
+
+
+body.training-program .mainpart .col-sm-4 {
+	padding: 20px;
+background: #ebebeb;
+text-transform:uppercase;
+border-bottom:1px solid #b3b3b3;
+margin-top:5px
+}
+
+.heading img {
+margin-right:10px}
+
+.mainpart, .sidebar {
+background:#fff;
+padding-top:20px;
+padding-bottom:20px}
+
+.sidebar {
+	width:30%;
+	padding-left:2.5%;
+padding-right:2.5%}
+
+.mainpart {
+	width:65%;
+margin-right:5%}
+
+.mainpart .custombtn {
+margin:30px 0;
+width:220px}
+
+.mainpart .maincontent-bottom strong {
+margin-right:20px}
+
+.sidebar-top {
+text-align:center}
+
+.mainpart .content {
+	border-bottom:1px solid #b3b3b3;
+padding:20px}
+
+
+.sidebar .content {
+padding:20px 0 20px 50px;
+border-bottom:1px solid #b3b3b3;
+}
+
+.training-program .row {
+	align-items:stretch;
+display:flex}
+
+
+.training-program .sidebar .heading {
+		padding: 20px;
+background: #ebebeb;
+border-bottom:1px solid #b3b3b3;
+margin-top:5px;
+text-transform:uppercase;
+}
+
+.training-program .row.content {
+display:block}
+
+/* Tutorial Category page */
+
+body.tutorial-category {
+background: #f5f5f5;}
+
+.tutorial-category .mainpart {
+background:none	
+}
+
+.tutorial-category .row{
+display:flex}
+
+.meta{
+clear:both;
+overflow:hidden;
+padding:20px 0}
+
+.tutorial-category .author {
+	float:right;
+	text-transform:uppercase
+}
+
+.tutorial-category .date {
+	float:left;
+}
+
+h3 {
+text-transform:uppercase}
+
+.tutorial-category article {
+		border-top: 5px solid #67407f;
+		width:48%;
+		margin-right:2%;
+		background:#fff
+}
+
+.tutorial-category .sidebar .heading-purple{
+	background:#67407f;
+	color:#fff;
+	text-align:center;
+	padding:10px 0;
+	margin:10px 0;
+	text-transform:uppercase
+}
+
+.tutorial-category .sidebar .heading-purple h3{
+margin-top:10px}
+
+.tutorial-category .sidebar .row-purple{
+	background:#67407f;
+	color:#fff;
+	text-align:center;
+	padding:5px 0;
+margin:10px 0;}
+
+.tutorial-category .sidebar .content {
+	text-align:center;
+padding:20px;
+border:none}
+
+.tutorial-category .sidebar .custombtn{
+width:220px}
+
+/* Tutorial Post page */
+
+.tutorial-post .meta {
+padding: 20px;
+background: #ebebeb;
+border-bottom:1px solid #b3b3b3;
+margin-top:5px
+}	
+
+.tutorial-post .heading {
+	padding: 20px;
+background: #ebebeb;
+border-bottom:1px solid #b3b3b3;
+margin-top:5px;
+text-transform:uppercase;
+}
+
+.tutorial-post .sidebar .heading {
+text-align:center}
+
+.tutorial-post .meta .title {
+	text-transform:uppercase;
+
+}
+
+.tutorial-post section .row:last-of-type {
+padding-bottom:0}
+
+.tutorial-post .meta .col-sm-4{
+padding:0}
+
+.tutorial-post .ad{
+	margin:30px 0
+}
+
+.tutorial-post .sidebar .content {
+padding:20px 0 20px 20px}
+
+.tutorial-post .mainpart .heading {
+	width:31%;
+	margin-right:6%;
+float:left}
+
+.tutorial-post .related {
+width:63%;
+float:right;
+vertical-align:middle}
+
+.tutorial-post .relatedsection {
+	display:flex;
+align-items:stretch}
+
+.tutorial-post .relatedarticles article {
+    background: #fff none repeat scroll 0 0;
+    border-top: 5px solid #67407f;
+    margin-right: 2%;
+    width: 48%;
+	float:left
+}
+
+	
+@media screen and (max-width:767px) {
+	
+	section {
+	padding:10px 0}
+	
+	.first .container{
+	display:block}
+	
+	.first .col-sm-4{
+		border-top:none;
+	border-bottom:5px solid #67407f;
+margin-bottom:40px }
+	
+	.sidebar{
+	clear:both;
+	width:100%}
+	
+	.first .col-sm-4, .last-posts .col-sm-4 {
+	margin-right:0;
+	width:100%
+}
+
+.brandnav li, .topnavbar {
+	display:none}
+	
+.brandnav li.navbar-brand{
+display:block}
+
+.mainpart, .tutorial-category article, .tutorial-post .relatedarticles article {
+	width:100%;
+margin-right:0%;
+clear:both}
+
+	.bottom .col-sm-2 {
+text-align:right;
+}
+
+.bottom .col-sm-4 {
+margin:30px 0}
+
+.third .row{
+margin-bottom:20px;
+border-bottom:1px solid #67407f;
+padding-bottom:0px;
+display:block;
+width:100%;
+float:none;
+clear:both}
+
+.fourth .row{
+margin-bottom:20px;
+padding-bottom:10px;
+display:block;
+width:100%;
+float:none;
+clear:both}
+
+.third .col-sm-4 {
+	padding: 20px;
+	background: #ebebeb;
+	width:100%;
+float:none;
+clear:both}
+
+.fourth .col-sm-4 {
+margin:20px 0;
+padding: 20px;
+	background: #ebebeb;
+	width:100%;
+float:none;
+clear:both}
+	
+	.third .col-sm-8,.fourth .col-sm-8 {
+	padding: 0;
+	width:100%;
+float:none;
+clear:both}
+
+.third ul li{
+width:100%;
+float:none;
+clear:both;
+display:block;
+padding:20px;
+border-bottom:1px solid #ddd}
+
+.third ul li:after{
+display:none}
+
+.last-posts .row{
+display:block}
+
+.last-posts .col-sm-4{
+	border-top:none;
+	border-bottom:5px solid #67407f;
+margin-bottom:40px}
+
+.third ul{
+	display:block;
+	margin:0;
+padding:0;
+width:100%}
+
+/*Training Program */
+
+.training-program .row {
+display:block}
+
+ul{
+padding:0}
+
+.mainpart, .sidebar {
+	margin-bottom:20px;
+}
+
+.maincontent-bottom strong {
+	width:100%;
+	display:block;
+clear:both;
+text-align:center;
+padding: 10px}
+
+.sidebar .content{
+padding:20px}
+
+.training-program .sidebar .heading {
+	margin:20px 0;
+padding: 20px;
+	background: #ebebeb;
+	width:100%;
+float:none;
+clear:both}
+
+/* Tutorial Category */
+
+.tutorial-category .row{
+display:block}
+
+.tutorial-category article{
+padding-bottom:20px}
+
+/*Tutorial Post*/
+
+.tutorial-post .meta .col-sm-4{
+padding:10px 0}
+
+.relatedarticles {
+background:#fff;
+overflow:hidden}
+
+.tutorial-post .relatedarticles article{
+margin-bottom:40px;
+padding-bottom:30px;
+border-bottom:1px solid #ddd}
+
+
+}
