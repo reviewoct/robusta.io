@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
-
+import Menu from "../components/menu"
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
@@ -16,6 +16,7 @@ class Layout extends React.Component {
             ...scale(1.5),
             marginBottom: rhythm(1.5),
             marginTop: 0,
+            
           }}
         >
           <Link
@@ -23,6 +24,7 @@ class Layout extends React.Component {
               boxShadow: `none`,
               textDecoration: `none`,
               color: `inherit`,
+              background:`green`,
             }}
             to={`/`}
           >
@@ -61,6 +63,7 @@ class Layout extends React.Component {
         }}
       >
         <header>{header}</header>
+        <Menu />
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
