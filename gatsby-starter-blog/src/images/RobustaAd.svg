@@ -1,0 +1,67 @@
+<svg id="RobustaAd.png_RobustaAd.svg" data-name="RobustaAd.png, RobustaAd.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="301" height="301" viewBox="0 0 301 301">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #9778a8;
+        stroke-width: 1px;
+      }
+
+      .cls-2, .cls-6 {
+        fill: #3c2561;
+      }
+
+      .cls-3 {
+        font-size: 16px;
+        fill: #595959;
+        text-anchor: middle;
+      }
+
+      .cls-3, .cls-6 {
+        font-family: Roboto;
+      }
+
+      .cls-4 {
+        font-size: 12px;
+      }
+
+      .cls-4, .cls-7 {
+        fill: #fff;
+        font-family: Lato;
+      }
+
+      .cls-5 {
+        stroke: #3c2561;
+        stroke-width: 2px;
+      }
+
+      .cls-6 {
+        font-size: 14px;
+        font-weight: 800;
+      }
+
+      .cls-6, .cls-7 {
+        text-transform: uppercase;
+      }
+
+      .cls-7 {
+        font-size: 24px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <rect id="bg-ad3" class="cls-1" x="0.5" y="0.5" width="300" height="300"/>
+  <rect id="bg-footer" class="cls-2" x="0.5" y="260.5" width="300" height="40"/>
+  <image id="logo-white" x="148.5" y="268.5" width="85" height="24" xlink:href="data:img/png;base64,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"/>
+  <text id="Lorem_ipsum_dolor_sit_amet_cons_adipisicing_elit_sed_do_eiusm" data-name="Lorem ipsum dolor sit amet, cons adipisicing elit, sed do eiusm" class="cls-3" x="25.773" y="91.435">Lorem ipsum dolor sit amet, cons adipisicing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua. <tspan x="25.773" dy="22">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</tspan><tspan x="25.773" dy="22"> esse cillum dolore eu fugiat nulla pariatur. </tspan><tspan x="25.773" dy="22">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</tspan></text>
+  <text id="Presented_by" data-name="Presented by" class="cls-4" x="96.362" y="283.291">Presented by</text>
+  <g id="Btn">
+    <rect id="bg" class="cls-5" x="80.5" y="194.5" width="140" height="40"/>
+    <text id="Get_Started" data-name="Get Started" class="cls-6" x="150.362" y="219.29">Get Started</text>
+  </g>
+  <rect id="bg-title" class="cls-2" x="0.5" y="0.5" width="300" height="71"/>
+  <text id="Angular_JS_Expert" data-name="Angular JS Expert" class="cls-7" x="25.362" y="27.459">Angular JS Expert</text>
+</svg>
