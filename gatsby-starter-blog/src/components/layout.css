@@ -620,7 +620,10 @@ pre tt:after {
     font-size: 100%;
   }
 }
-
+header a:hover {
+  text-decoration: none;
+  color: #333;
+}
 header a {
   color: #777;
   font-size: 14px;
