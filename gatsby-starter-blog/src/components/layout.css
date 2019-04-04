@@ -620,10 +620,7 @@ pre tt:after {
     font-size: 100%;
   }
 }
-header a:hover {
-  text-decoration: none;
-  color: #333;
-}
+
 header a {
   color: #777;
   font-size: 14px;
@@ -1244,4 +1241,8 @@ background:#fff}
 }
 .bottom .col-xs-8.col-sm-9 img {
     margin-right: 4px;
+}
+header a:hover {
+  text-decoration: none;
+  color: #333;
 }
