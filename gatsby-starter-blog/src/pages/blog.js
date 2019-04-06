@@ -1,42 +1,30 @@
 import React from 'react'
-import HomeLayout from '../components/HomeLayout'
+import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { graphql, StaticQuery } from 'gatsby'
-import Post from '../components/Post'
-import TrainingSection from '../components/TrainingSection'
-import AboutSection from '../components/AboutSection'
-import TrainingPlan from '../components/TrainingPlan'
-import MasalaSection from '../components/MasalaSection'
-import GetStarted from '../components/GetStarted'
-import BottomSection from '../components/BottomSection'   
-import Copyright from '../components/Copyright' 
+import BlogPage from '../components/BlogPage'
+ 
+import PaginationLinks from '../components/PaginationLinks'
  
 
-const IndexPage = () => {
-   
- 
-  return (
-    <HomeLayout pageTitle="CodeBlog">
+
+const IndoxCage = () => {
+  const postsPerPage = 2
+  let numberOfPages
+  return ( 
+    <Layout  >
+    
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-
-      <TrainingSection />
-      <AboutSection />
-      <TrainingPlan />
-      <MasalaSection />
-
-      <section className="last-posts">
-			<div className="container">
-				<h2>Last Posts</h2>
-				<div className="row">
-
       <StaticQuery
-        query={indexQuery}
+        query={Query}
         render={data => {
-          
+          numberOfPages = Math.ceil(
+            data.allMarkdownRemark.totalCount / postsPerPage
+          )
           return (
             <div>
               {data.allMarkdownRemark.edges.map(({ node }) => (
-                <Post
+                <BlogPage
                   key={node.id}
                   title={node.frontmatter.title}
                   slug={node.fields.slug}
@@ -47,28 +35,22 @@ const IndexPage = () => {
                   tags={node.frontmatter.tags}
                 />
               ))}
-             
+              <PaginationLinks currentPage={1} numberOfPages={numberOfPages} />
             </div>
           )
         }}
       />
-				</div>
-			</div>
-		</section>
-    <GetStarted />   
-    <BottomSection />   
-    <Copyright />  
-     
 
-    </HomeLayout>
+ 
+    </Layout>
   )
 }
 
-const indexQuery = graphql`
-  query indexQuery {
+const Query = graphql`
+  query {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 3
+      limit: 2
     ) {
       totalCount
       edges {
@@ -97,4 +79,4 @@ const indexQuery = graphql`
   }
 `
 
-export default IndexPage
+export default IndoxCage

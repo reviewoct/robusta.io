@@ -1246,3 +1246,109 @@ header a:hover {
   text-decoration: none;
   color: #333;
 }
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+.badge-primary {
+  color: #fff;
+  background-color: #007bff;
+}
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+ul.post-tags li {
+  margin-right: 10px;
+}
+
+ul.post-tags {
+  padding: 0;
+  display: inline-flex;
+  list-style: none;
+}
+ul.post-tags {
+  padding: 0;
+  margin-left: 0;
+  display: inline-flex;
+  list-style: none;
+}
+.post-tags li {
+  border-bottom: none !important;
+}
+
+/*Social Links*/
+.social-share-links ul {
+  display: inline-flex;
+  margin: 20px auto;
+}
+.social-share-links ul li {
+  margin: auto 20px;
+  list-style-type: none
+}
+.social-share-links ul li a {
+  opacity: 0.6;
+  font-size: 32px;
+  transition: all 0.1s ease-in;
+}
+.social-share-links ul li a:hover {
+  opacity: 1;
+}
+.social-share-links ul li a.facebook {
+  color: #4267b2;
+}
+.social-share-links ul li a.twitter {
+  color: #38a1f3;
+}
+.social-share-links ul li a.google {
+  color: #dd4b39;
+}
+.social-share-links ul li a.linkedin {
+  color: #0077b5;
+}
+.social-share-links li {
+  border-bottom: unset !important;
+}
+
+/*Singel Post*/
+.row.singelpost {
+  display: contents;
+}
+/*Sidebar */
+.author-social-links ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+.author-social-links ul li {
+  margin: auto 7px;
+}
+.author-social-links ul li a {
+  transition: all 0.1s ease-out;
+  font-size: 18px;
+  color: gray;
+}
+.author-social-links ul li a.instagram:hover {
+  color: #e95950;
+}
+.author-social-links ul li a.facebook:hover {
+  color: #4267b2;
+}
+.author-social-links ul li a.twitter:hover {
+  color: #38a1f3;
+}
+.author-social-links ul li a.google:hover {
+  color: #dd4b39;
+}
+.author-social-links ul li a.linkedin:hover {
+  color: #0077b5;
+}
+.card {
+  margin-bottom: 30px;
+}
