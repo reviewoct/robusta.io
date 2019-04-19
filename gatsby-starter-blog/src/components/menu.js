@@ -29,6 +29,9 @@ const Menu = () => (
       <li>
         <Link to="/contact">CONTACT</Link>
       </li>
+      <li>
+      <Link to={`/tag/front`}>front</Link>
+      </li>
     </ul>
   </div>
 )

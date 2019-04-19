@@ -5,13 +5,10 @@ import BlogPage from '../components/BlogPage'
 
 const tagPosts = ({ data, pageContext }) => {
   const { tag } = pageContext
-  const { totalCount } = data.allMarkdownRemark
-  const pageHeader = `${totalCount} post${
-    totalCount === 1 ? '' : 's'
-  } tagged with "${tag}"`
+ 
 
   return (
-    <Layout pageTitle={pageHeader}>
+    <Layout    >
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <BlogPage
           key={node.id}
@@ -21,7 +18,7 @@ const tagPosts = ({ data, pageContext }) => {
           date={node.frontmatter.date}
           body={node.excerpt}
           tags={node.frontmatter.tags}
-          fluid={node.frontmatter.image.childImageSharp.fluid}
+          fluid={node.frontmatter.image.childImageSharp.fluid} 
         />
       ))}
     </Layout>
